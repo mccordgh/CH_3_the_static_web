@@ -1,0 +1,72 @@
+
+/* GENERIC SELECTORS */
+
+
+html {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	margin: 0;
+}
+
+
+
+
+
+/* CLASS SELECTORS */
+
+
+.left_column {
+	width: 40%;
+	margin: 50px 50px;
+	float: left;
+}
+
+
+
+
+
+/* ID SELECTORS */
+
+#nav_list {
+	border-bottom: 2px solid green;
+	background-color: lightgreen;
+	list-style: none;
+	width: 100%;
+	padding: 10px 5px;
+	margin: 0;
+	position: fixed;
+}
+
+#nav_list li {
+	background-color: ;
+	display: inline-block;
+	width: 24%;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 5px;
+}
+
+#nav_list a {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+#nav_list a:hover {
+	color: green;
+}
+
+#nav_list li:hover {
+	background-color: white;
+}
+
+#nav_list li:active {
+	margin: 0;
+	padding: 0 5px;
+}
